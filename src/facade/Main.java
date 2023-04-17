@@ -7,10 +7,14 @@ public class Main {
     Speaker speaker = new OldSpeaker();
     Speaker awesome_speaker = new NewSpeaker();
     Monitor monitor = new Monitor();
-    FacadeLivingRoom living_room = new FacadeLivingRoom();
 
+    // create a living object with the old speaker
+    FacadeLivingRoom living_room = new FacadeLivingRoom(light, curtain, speaker, monitor);
+
+    // create a bedroom object with the old speaker
     FacadeBedroom bedroom = new FacadeBedroom(light, curtain, speaker, monitor);
 
+    // use
     System.out.println("In the Living room:");
     System.out.println("\nSleep mode:");
     living_room.sleep();

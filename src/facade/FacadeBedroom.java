@@ -20,13 +20,9 @@ public class FacadeBedroom {
     System.out.println("\nCurrent time is: " + time);
   }
 
-//  public void sleep() {
-//    curtain.close();
-//    speaker.off();
-//    monitor.off();
-//    light.off();
-//  }
-
+  /**
+   * This method sets the bedroom to work mode.
+   */
   public void work() {
     if (time.equals("day")) {
       curtain.open();
@@ -39,10 +35,4 @@ public class FacadeBedroom {
     monitor.on();
   }
 
-//  public void movie() {
-//    curtain.close();
-//    speaker.on();
-//    monitor.on();
-//    light.off();
-//  }
 }
