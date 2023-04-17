@@ -1,13 +1,17 @@
 package facade;
 
-public class Speaker {
-  public Speaker(){}
+/**
+ * This interface represents speaker.
+ * This interface contains methods as speaker's operations.
+ */
+public interface Speaker {
+  /**
+   * This method turns on the speaker.
+   */
+  void on();
 
-  public String on() {
-    return "Speaker is on\n";
-  }
-
-  public String off() {
-    return "Speakers is off\n";
-  }
+  /**
+   * This method turns off the speaker.
+   */
+  void off();
 }

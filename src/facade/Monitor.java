@@ -3,11 +3,11 @@ package facade;
 public class Monitor {
   public Monitor(){}
 
-  public String on() {
-    return "Monitor is on\n";
+  public void on() {
+    System.out.println("Monitor is on");
   }
 
-  public String off() {
-    return "Monitor is off\n";
+  public void off() {
+    System.out.println("Monitor is off");
   }
 }

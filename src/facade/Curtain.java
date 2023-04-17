@@ -3,11 +3,11 @@ package facade;
 public class Curtain {
   public Curtain(){}
 
-  public String open() {
-    return "Curtain is open\n";
+  public void  open() {
+    System.out.println("Curtain is open");
   }
 
-  public String close() {
-    return "Curtain is closed\n";
+  public void close() {
+    System.out.println("Curtain is closed");
   }
 }
