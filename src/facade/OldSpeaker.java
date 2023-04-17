@@ -5,6 +5,9 @@ package facade;
  * It implements the Speaker interface.
  */
 public class OldSpeaker implements Speaker{
+  /**
+   * This is the constructor for the old speaker.
+   */
   public OldSpeaker(){}
 
   @Override

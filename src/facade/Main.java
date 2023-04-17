@@ -1,6 +1,13 @@
 package facade;
 
+/**
+ * This class represents the main class that acts as the driver to run the program.
+ */
 public class Main {
+  /**
+   * This is the main method.
+   * @param args Not used in our driver class.
+   */
   public static void main(String[] args) {
     Light light = new Light();
     Curtain curtain = new Curtain();
